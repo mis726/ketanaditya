@@ -1,0 +1,1505 @@
+[
+    {
+        "sr_no": 2,
+        "category": "Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Dori Capri",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 145
+            },
+            {
+                "size": "34/38",
+                "price": 175
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_Dori%20Print.webp"
+    },
+    {
+        "sr_no": 3,
+        "category": "Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Elastic Capri",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 180
+            },
+            {
+                "size": "34/38",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_Elastic.webp"
+    },
+    {
+        "sr_no": 4,
+        "category": "Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Cotton Print Capri",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 140
+            },
+            {
+                "size": "34/38",
+                "price": 170
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_Cotton%20Print.webp"
+    },
+    {
+        "sr_no": 5,
+        "category": "Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Check Capri",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 140
+            },
+            {
+                "size": "34/38",
+                "price": 170
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_Cotton%20Cross.webp"
+    },
+    {
+        "sr_no": 7,
+        "category": "Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Plain Capri",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 135
+            },
+            {
+                "size": "34/38",
+                "price": 165
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_Cotton%20CBP.webp"
+    },
+    {
+        "sr_no": 10,
+        "category": "Capri",
+        "subcategory": "Lycra Capri",
+        "design_name": "Cotton Lycra Capri",
+        "variants": [
+            {
+                "size": "20/30",
+                "price": 100
+            },
+            {
+                "size": "32/40",
+                "price": 130
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri__CHS.webp"
+    },
+    {
+        "sr_no": 12,
+        "category": "Capri",
+        "subcategory": "Lycra Capri",
+        "design_name": "Imported Lycra Capri",
+        "variants": [
+            {
+                "size": "22/30",
+                "price": 90
+            },
+            {
+                "size": "32/40",
+                "price": 115
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri__Tain%20Dain%20Print.webp"
+    },
+    {
+        "sr_no": 14,
+        "category": "Capri",
+        "subcategory": "Lycra Capri",
+        "design_name": "Lycra Print Capri",
+        "variants": [
+            {
+                "size": "20/30",
+                "price": 80
+            },
+            {
+                "size": "32/40",
+                "price": 105
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri_Cotton_CFP.webp"
+    },
+    {
+        "sr_no": 15,
+        "category": "Capri",
+        "subcategory": "Lycra Capri",
+        "design_name": "Nylon Capri",
+        "variants": [
+            {
+                "size": "22/36",
+                "price": 115
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Capri/Capri__Kenjo%20Print.webp"
+    },
+    {
+        "sr_no": 17,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "Smocking Capri",
+        "variants": [
+            {
+                "size": "26/36",
+                "price": 290
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim%20_Cadd%203885.webp"
+    },
+    {
+        "sr_no": 18,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 442 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 165
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim%20_Cadd%2032%20no.webp"
+    },
+    {
+        "sr_no": 19,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 443 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 170
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim%20_Cadd%2032%20no.webp"
+    },
+    {
+        "sr_no": 23,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 449 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 180
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim_Cadd%203895.webp"
+    },
+    {
+        "sr_no": 24,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 451 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim%20_Cadd%203821.webp"
+    },
+    {
+        "sr_no": 25,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 452 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 180
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim%20_Cadd%204091.webp"
+    },
+    {
+        "sr_no": 27,
+        "category": "Fancy Capri",
+        "subcategory": "Cotton Capri",
+        "design_name": "HSD 455 CAPRI",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 180
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Capri/Capri_Denim_Cadd%203822.webp"
+    },
+    {
+        "sr_no": 34,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "Cotton Print Set",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 205
+            },
+            {
+                "size": "34/38",
+                "price": 245
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Sets/Set__Tain%20Dain%20Capri.webp"
+    },
+    {
+        "sr_no": 38,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "HSS 301 SET",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 285
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Sets/Set__Rib%20Print%20Capri.webp"
+    },
+    {
+        "sr_no": 39,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "HSS 302 SET",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 285
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Sets/Set_Rib%20Print%20Neckar%20Set.webp"
+    },
+    {
+        "sr_no": 40,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "HSS 303 SET",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT288.webp"
+    },
+    {
+        "sr_no": 41,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "HSS 304 SET",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 315
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Sets/Set_Cotton_030Cordset.webp"
+    },
+    {
+        "sr_no": 42,
+        "category": "Set",
+        "subcategory": "Cotton Set",
+        "design_name": "HSS 305 SET",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Sets/Set_Rib%20Print%20Neckar%20Set.webp"
+    },
+    {
+        "sr_no": 48,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 101 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 140
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT149.webp"
+    },
+    {
+        "sr_no": 49,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 102 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 150
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top__GT144.webp"
+    },
+    {
+        "sr_no": 51,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 104 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 145
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT161.webp"
+    },
+    {
+        "sr_no": 52,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 105 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT148.webp"
+    },
+    {
+        "sr_no": 53,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 106 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT147.webp"
+    },
+    {
+        "sr_no": 54,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 107 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 175
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT145.webp"
+    },
+    {
+        "sr_no": 56,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 109 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 150
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT195.webp"
+    },
+    {
+        "sr_no": 57,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 110 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 170
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT146.webp"
+    },
+    {
+        "sr_no": 58,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 111 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT113.webp"
+    },
+    {
+        "sr_no": 59,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 112 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 180
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Tops/Top_GT141.webp"
+    },
+    {
+        "sr_no": 61,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 114 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 190
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT288.webp"
+    },
+    {
+        "sr_no": 64,
+        "category": "Tops(T-shirt)",
+        "subcategory": "Standard",
+        "design_name": "HST 117 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 195
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT288.webp"
+    },
+    {
+        "sr_no": 85,
+        "category": "Denim Skirts",
+        "subcategory": "Standard",
+        "design_name": "Denim Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            },
+            {
+                "size": "34/38",
+                "price": 225
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Skirts/Skirt_Denim_SDMS827.webp"
+    },
+    {
+        "sr_no": 88,
+        "category": "Denim Skirts",
+        "subcategory": "Standard",
+        "design_name": "SDMS 910",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 275
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Skirts/Skirt_Denim_SDMS952.webp"
+    },
+    {
+        "sr_no": 89,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Cotton Print Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "34/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__New%20PSS%20Long.webp"
+    },
+    {
+        "sr_no": 90,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Cotton Check Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "34/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Riyan%20Foil.webp"
+    },
+    {
+        "sr_no": 91,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Cotton Plain Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 120
+            },
+            {
+                "size": "34/38",
+                "price": 150
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Riyan%20Skirt.webp"
+    },
+    {
+        "sr_no": 92,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Rayon Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 130
+            },
+            {
+                "size": "34/38",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Satan%20Plating%20Plain%20long.webp"
+    },
+    {
+        "sr_no": 93,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Rayon Foil Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 140
+            },
+            {
+                "size": "34/38",
+                "price": 170
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Printed%20Box%20.webp"
+    },
+    {
+        "sr_no": 94,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Crush Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 155
+            },
+            {
+                "size": "34/38",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Plating%20Seemar.webp"
+    },
+    {
+        "sr_no": 95,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Leheriya Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 155
+            },
+            {
+                "size": "34/38",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__PBS%20Plain.webp"
+    },
+    {
+        "sr_no": 96,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "Net Skirt",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 160
+            },
+            {
+                "size": "34/38",
+                "price": 190
+            }
+        ],
+        "prints_colour": "Prints",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Satan%20Tain%20Dain%20Long.webp"
+    },
+    {
+        "sr_no": 97,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "HST 121 SKIRT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 175
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Digital%20Plating%20Skirt.webp"
+    },
+    {
+        "sr_no": 98,
+        "category": "Skirts",
+        "subcategory": "Standard",
+        "design_name": "HST 122 SKIRT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 195
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Skirts/Skirt__Satan%20Plating%20Foil%20long.webp"
+    },
+    {
+        "sr_no": 117,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 401 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 275
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4998.webp"
+    },
+    {
+        "sr_no": 118,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 402 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4639.webp"
+    },
+    {
+        "sr_no": 120,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 404 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4601.webp"
+    },
+    {
+        "sr_no": 121,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 405 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 330
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4838.webp"
+    },
+    {
+        "sr_no": 123,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 407 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 285
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4974.webp"
+    },
+    {
+        "sr_no": 124,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 408 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 285
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4987.webp"
+    },
+    {
+        "sr_no": 125,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 409 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 325
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4910.webp"
+    },
+    {
+        "sr_no": 133,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 417 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4695.webp"
+    },
+    {
+        "sr_no": 134,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 418 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 310
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4635.webp"
+    },
+    {
+        "sr_no": 141,
+        "category": "Denim Pants",
+        "subcategory": "Standard",
+        "design_name": "HSDP 425 PANT",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 340
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Full%20Bottom/Pant_Denim_PGDA4636.webp"
+    },
+    {
+        "sr_no": 149,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 201 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 210
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline__Tain%20Dain%20.webp"
+    },
+    {
+        "sr_no": 150,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 202 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 200
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline_Cotton_Cotton%20Printed.webp"
+    },
+    {
+        "sr_no": 151,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 203 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 210
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline_Bubble.webp"
+    },
+    {
+        "sr_no": 152,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 204 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline__Far.webp"
+    },
+    {
+        "sr_no": 153,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 205 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline__Tomato%20Round%20Neck.webp"
+    },
+    {
+        "sr_no": 154,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 206 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 235
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline_Denim_APD25.webp"
+    },
+    {
+        "sr_no": 155,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 207 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 220
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Aline_Denim_APD58.webp"
+    },
+    {
+        "sr_no": 156,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 208 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 220
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Long%20Kurti_Chikan_5010.webp"
+    },
+    {
+        "sr_no": 157,
+        "category": "Aline",
+        "subcategory": "Standard",
+        "design_name": "HSAL 209 ALINE",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Long%20Kurti_Chikan_5011.webp"
+    },
+    {
+        "sr_no": 163,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 351 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1205.webp"
+    },
+    {
+        "sr_no": 164,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 352 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1231.webp"
+    },
+    {
+        "sr_no": 166,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 354 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 210
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1258.webp"
+    },
+    {
+        "sr_no": 168,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 356 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1257.webp"
+    },
+    {
+        "sr_no": 169,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 357 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1251.webp"
+    },
+    {
+        "sr_no": 170,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 358 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 235
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1261.webp"
+    },
+    {
+        "sr_no": 171,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 359 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 220
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1207.webp"
+    },
+    {
+        "sr_no": 172,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 360 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 220
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__MT1216.webp"
+    },
+    {
+        "sr_no": 185,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 373 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 255
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT290.webp"
+    },
+    {
+        "sr_no": 188,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 376 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 255
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT364.webp"
+    },
+    {
+        "sr_no": 189,
+        "category": "Denim Top",
+        "subcategory": "Standard",
+        "design_name": "HSDT 377 TOP",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 255
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Tops/Top__DT365.webp"
+    },
+    {
+        "sr_no": 192,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 460",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD315.webp"
+    },
+    {
+        "sr_no": 194,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 462",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 185
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD245(1).webp"
+    },
+    {
+        "sr_no": 195,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 463",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 210
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD246.webp"
+    },
+    {
+        "sr_no": 199,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 467",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD316.webp"
+    },
+    {
+        "sr_no": 206,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 474",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 215
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD242.webp"
+    },
+    {
+        "sr_no": 210,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 478",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 235
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD191.webp"
+    },
+    {
+        "sr_no": 214,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD 482",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 225
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_HSDD482.webp"
+    },
+    {
+        "sr_no": 215,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD DENIM SCREEN HOTSHOT NO.3 ",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 230
+            },
+            {
+                "size": "34/38",
+                "price": 260
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_DSC3.webp"
+    },
+    {
+        "sr_no": 216,
+        "category": "Denim Shorts",
+        "subcategory": "Standard",
+        "design_name": "HSDD DENIM SCREEN HOTSHOT NO.5",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 230
+            }
+        ],
+        "prints_colour": "Colour",
+        "style": "Fancy",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Fancy%20Shorts/Shorts_Denim_DSC3.webp"
+    },
+    {
+        "sr_no": 217,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "Riyan Print Bloomer",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 115
+            },
+            {
+                "size": "34/38",
+                "price": 145
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__Riyan%20Print.webp"
+    },
+    {
+        "sr_no": 218,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "Riyan Foil Bloomer",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "34/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__Riyan%20Foil.webp"
+    },
+    {
+        "sr_no": 219,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "New Dot Neckar NDN",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "34/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__NDN.webp"
+    },
+    {
+        "sr_no": 220,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "Cotton Printed Neckar CPN",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "345/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__BFC.webp"
+    },
+    {
+        "sr_no": 221,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "CPD 2 PRINTED DIVIDER ",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 130
+            },
+            {
+                "size": "34/38",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__BFC.webp"
+    },
+    {
+        "sr_no": 222,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "Plain Divider Cotton",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 125
+            },
+            {
+                "size": "34/38",
+                "price": 155
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__BFC.webp"
+    },
+    {
+        "sr_no": 223,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "P-D-2 Cotton Divider ",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 130
+            },
+            {
+                "size": "34/38",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer__BFC.webp"
+    },
+    {
+        "sr_no": 224,
+        "category": "Shorts",
+        "subcategory": "Standard",
+        "design_name": "Riyan Divider",
+        "variants": [
+            {
+                "size": "22/32",
+                "price": 130
+            },
+            {
+                "size": "34/38",
+                "price": 160
+            }
+        ],
+        "prints_colour": "Print",
+        "style": "Core",
+        "image_url": "https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Core%20Shorts/Bloomer_Cotton_Cotton%20Frill.webp"
+    }
+]
