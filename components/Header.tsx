@@ -25,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentView }) => {
             onClick={() => onNavigate('home')}
           >
             <img
-              src="/ketan-logo.png"
+              src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/ketan-logo.png"
               alt="Ketan Aditya Textile LLP"
               className="h-8 md:h-10 w-auto transition-transform group-hover:scale-105"
             />

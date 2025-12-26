@@ -88,7 +88,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-5 text-sm">
               <li className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center shrink-0 border border-white/5 p-2 shadow-lg overflow-hidden group-hover:bg-accent transition-all duration-300">
-                  <img src="/ketan-logo.png" className="w-full h-full object-contain" alt="Ketan Logo" />
+                  <img src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/ketan-logo.png" className="w-full h-full object-contain" alt="Ketan Logo" />
                 </div>
                 <span className="text-slate-400 font-medium pt-1">Plot No.2, Ready Made Complex, Pardesipura, Indore (M.P.) - 452003</span>
               </li>

@@ -153,7 +153,7 @@ const MainContent: React.FC = () => {
                                     <div className="space-y-12">
                                         <div className="flex gap-6 group">
                                             <div className="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-primary group-hover:text-white transition-all duration-500 shadow-sm overflow-hidden p-3">
-                                                <img src="/ketan-logo.png" className="w-full h-full object-contain" alt="Ketan Logo" />
+                                                <img src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/ketan-logo.png" className="w-full h-full object-contain" alt="Ketan Logo" />
                                             </div>
                                             <div>
                                                 <h4 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Our Location</h4>
@@ -235,7 +235,7 @@ const MainContent: React.FC = () => {
                                         <div className="absolute -inset-4 bg-accent/10 rounded-[2rem] blur-2rem group-hover:bg-accent/20 transition-all duration-700"></div>
                                         <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
                                             <img
-                                                src="/images/MD1.png"
+                                                src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/MD1.png"
                                                 alt="Nilesh K. Ranka - MD, Ketan Aditya Textiles LLP"
                                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
                                             />
@@ -308,7 +308,7 @@ const MainContent: React.FC = () => {
                             </div>
                         </div>
                         <div className="rounded-3xl overflow-hidden shadow-elevated h-[400px] border border-slate-200">
-                            <img src="/factory-building.jpg" className="w-full h-full object-cover" alt="Ketan Aditya Textile Building" />
+                            <img src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/factory-building.jpg" className="w-full h-full object-cover" alt="Ketan Aditya Textile Building" />
                         </div>
                     </div>
                 </section>

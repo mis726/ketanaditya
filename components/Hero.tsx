@@ -135,9 +135,9 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                     <div className="relative w-full h-full flex items-center justify-center">
                         <div className="relative w-[600px] h-[600px] flex items-center justify-center">
                             {[
-                                { id: 'left', img: '/images/set.png', z: 10, pos: 'left-0 top-20', scale: 0.85, rotate: -8 },
-                                { id: 'center', img: '/images/white.png', z: 20, pos: 'left-1/2 -translate-x-1/2 top-10', scale: 1, rotate: 0 },
-                                { id: 'right', img: '/images/casual.png', z: 30, pos: 'right-0 bottom-20', scale: 0.9, rotate: 8 }
+                                { id: 'left', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/set.png', z: 10, pos: 'left-0 top-20', scale: 0.85, rotate: -8 },
+                                { id: 'center', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/white.png', z: 20, pos: 'left-1/2 -translate-x-1/2 top-10', scale: 1, rotate: 0 },
+                                { id: 'right', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/casual.png', z: 30, pos: 'right-0 bottom-20', scale: 0.9, rotate: 8 }
                             ].map((model) => {
                                 const isFocused = hoveredModel === model.id;
                                 const isAnyHovered = hoveredModel !== null;
@@ -224,7 +224,7 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
             <VideoModal
                 isOpen={isVideoModalOpen}
                 onClose={() => setIsVideoModalOpen(false)}
-                videoSrc="/factory-tour.mp4"
+                videoSrc="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/factory-tour.mp4"
             />
         </section>
     );
