@@ -2,11 +2,10 @@ import React from 'react';
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'lucide-react';
 
 interface FooterProps {
-  onNavigate: (view: 'home' | 'catalog' | 'factory' | 'contact') => void;
-  onFilter: (category?: string, showNew?: boolean) => void;
+  onNavigate: (view: 'home' | 'factory' | 'contact') => void;
 }
 
-const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
+const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer className="bg-primary pt-16 pb-8 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
               <span className="text-[10px] font-semibold tracking-widest text-slate-400 uppercase">Textile LLP</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
-              Indore's leading manufacturer of girls' wholesale fashion. Delivering excellence and trust directly to retailers nationwide for over 40 years.
+              Indore's leading manufacturer of girls' wholesale fashion. Delivering excellence and trust directly to retailers nationwide for over 27 years.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="w-10 h-10 rounded-xl bg-slate-800 hover:bg-accent hover:text-white transition-all duration-300 cursor-pointer flex items-center justify-center border border-white/5 shadow-lg">
@@ -36,35 +35,14 @@ const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
 
           {/* Quick Links */}
           <div>
-            <h3
-              onClick={() => onNavigate('catalog')}
-              className="text-sm font-bold text-white uppercase tracking-wider mb-6 cursor-pointer hover:text-accent transition-colors"
-            >
-              Explore
-            </h3>
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-6">Explore</h3>
             <ul className="space-y-4 text-sm font-medium">
               <li>
                 <button
-                  onClick={() => { onNavigate('catalog'); onFilter(undefined, true); }}
+                  onClick={() => onNavigate('home')}
                   className="hover:text-accent transition-all duration-300 flex items-center gap-2 group outline-none"
                 >
-                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> New Arrivals
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => { onNavigate('catalog'); onFilter('Denim Pants'); }}
-                  className="hover:text-accent transition-all duration-300 flex items-center gap-2 group outline-none"
-                >
-                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> Denim Pants
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => { onNavigate('catalog'); onFilter('Tops(T-shirt)'); }}
-                  className="hover:text-accent transition-all duration-300 flex items-center gap-2 group outline-none"
-                >
-                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> T-Shirts
+                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> Home
                 </button>
               </li>
               <li>
@@ -72,7 +50,15 @@ const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
                   onClick={() => onNavigate('factory')}
                   className="hover:text-accent transition-all duration-300 flex items-center gap-2 group outline-none"
                 >
-                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> Factory Visit
+                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> Factory & Legacy
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate('contact')}
+                  className="hover:text-accent transition-all duration-300 flex items-center gap-2 group outline-none"
+                >
+                  <span className="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-accent transition-colors"></span> Contact & Inquiry
                 </button>
               </li>
             </ul>
@@ -101,8 +87,10 @@ const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
             <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-6">Contact Factory</h3>
             <ul className="space-y-5 text-sm">
               <li className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center shrink-0 text-accent border border-white/5"><MapPin size={20} /></div>
-                <span className="text-slate-400 font-medium">Plot No.2, Ready Made Complex, Pardesipura, Indore (M.P.) - 452003</span>
+                <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center shrink-0 border border-white/5 p-2 shadow-lg overflow-hidden group-hover:bg-accent transition-all duration-300">
+                  <img src="/ketan-logo.png" className="w-full h-full object-contain" alt="Ketan Logo" />
+                </div>
+                <span className="text-slate-400 font-medium pt-1">Plot No.2, Ready Made Complex, Pardesipura, Indore (M.P.) - 452003</span>
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center shrink-0 text-accent border border-white/5"><Phone size={20} /></div>
@@ -110,7 +98,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate, onFilter }) => {
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center shrink-0 text-accent border border-white/5"><Mail size={20} /></div>
-                <span className="text-slate-400 break-all text-[11px] font-bold">ketanadityatextillellp@gmail.com</span>
+                <span className="text-slate-400 break-all text-[11px] font-bold">hello@ketanaditya.com</span>
               </li>
             </ul>
           </div>

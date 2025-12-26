@@ -14,6 +14,10 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
     const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
+    // State to track which model is currently hovered for the "desaturate other" effect
+    const [hoveredModel, setHoveredModel] = useState<string | null>(null);
+
+    // Parallax & Tilt Logic handled directly in the JSX for performance and readability
 
     // Handle Mouse Move for Spotlight & Tilt
     useEffect(() => {
@@ -68,16 +72,16 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-card border-white/10 text-xs font-bold text-accent tracking-wider uppercase animate-fade-in-up">
                         <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
-                        Direct From Indore
+                        From Indore to the World
                     </div>
 
                     {/* Headline */}
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-extrabold text-white leading-[1.1] tracking-tight drop-shadow-2xl">
                         <span className="block animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-                            Crafting
+                            Product that
                         </span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-slate-500 bg-[length:200%_auto] animate-shimmer-text pb-2" style={{ animationDelay: '200ms' }}>
-                            Excellence.
+                            sells fast in Retail
                         </span>
                         <span className="block text-2xl md:text-4xl font-semibold text-slate-300 mt-2 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
                             Wholesale Girls' Wear Reimagined.
@@ -85,7 +89,8 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                     </h1>
 
                     <p className="text-lg text-slate-400 max-w-lg leading-relaxed animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-                        Join 2,500+ retailers scaling their business with our factory-direct pricing and premium quality manufacturing.
+                        For 27 years, we’ve powered 2,500+ retailers across 4 countries,
+                        delivering over 3 crore garments — with momentum that keeps accelerating.
                     </p>
 
                     {/* Buttons */}
@@ -93,10 +98,10 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                         <Button
                             variant="accent"
                             className="h-14 px-8 text-lg shadow-glow hover:scale-105 transition-transform"
-                            onClick={() => onNavigate('catalog')}
+                            onClick={() => onNavigate('contact')}
                             icon={<ArrowRight size={20} />}
                         >
-                            Explore Catalog
+                            Get in Touch
                         </Button>
                         <Button
                             variant="secondary"
@@ -111,94 +116,105 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                     {/* Trust Indicators */}
                     <div className="pt-8 border-t border-white/10 flex gap-8 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
                         <div className="flex flex-col">
-                            <span className="text-2xl font-bold text-white">40+</span>
+                            <span className="text-2xl font-bold text-white">27+</span>
                             <span className="text-xs text-slate-400 uppercase tracking-wider">Years Legacy</span>
                         </div>
                         <div className="flex flex-col">
-                            <span className="text-2xl font-bold text-white">500+</span>
+                            <span className="text-2xl font-bold text-white">400+</span>
                             <span className="text-xs text-slate-400 uppercase tracking-wider">Live Designs</span>
                         </div>
                         <div className="flex flex-col">
-                            <span className="text-2xl font-bold text-white">15</span>
-                            <span className="text-xs text-slate-400 uppercase tracking-wider">States Served</span>
+                            <span className="text-2xl font-bold text-white">4</span>
+                            <span className="text-xs text-slate-400 uppercase tracking-wider">Countries Served</span>
                         </div>
                     </div>
                 </div>
 
-                {/* Right: Interactive 3D Card Stack - Rotates in place */}
-                <div className="hidden lg:flex justify-center items-center relative h-[600px] perspective-1000">
-                    <div
-                        className="relative w-[340px] h-[480px] transition-transform duration-100 ease-out"
-                        style={{
-                            transform: `rotateX(${tiltX}deg) rotateY(${tiltY}deg)`,
-                            transformStyle: 'preserve-3d'
-                        }}
-                    >
-                        {/* Back Card (Decoration) */}
-                        <div
-                            className="absolute inset-0 bg-slate-800 rounded-2xl shadow-2xl transform translate-z-[-50px] translate-x-12 translate-y-12 opacity-40 border border-white/10"
-                            style={{ transform: 'translateZ(-60px) translateX(60px) translateY(40px)' }}
-                        ></div>
+                {/* Right: Interactive 3D Model Stack - Parallax & Depth */}
+                <div className="hidden lg:flex justify-center items-center relative h-[700px] w-full mt-12">
+                    <div className="relative w-full h-full flex items-center justify-center">
+                        <div className="relative w-[600px] h-[600px] flex items-center justify-center">
+                            {[
+                                { id: 'left', img: '/images/set.png', z: 10, pos: 'left-0 top-20', scale: 0.85, rotate: -8 },
+                                { id: 'center', img: '/images/white.png', z: 20, pos: 'left-1/2 -translate-x-1/2 top-10', scale: 1, rotate: 0 },
+                                { id: 'right', img: '/images/casual.png', z: 30, pos: 'right-0 bottom-20', scale: 0.9, rotate: 8 }
+                            ].map((model) => {
+                                const isFocused = hoveredModel === model.id;
+                                const isAnyHovered = hoveredModel !== null;
 
-                        {/* Middle Card (Product 2) */}
-                        {products[1] && (
-                            <div
-                                className="absolute inset-0 bg-white rounded-2xl shadow-2xl overflow-hidden transform border border-white/20 animate-float-delayed"
-                                style={{ transform: 'translateZ(-30px) translateX(30px) translateY(20px)' }}
-                            >
-                                <img src={products[1].imageUrl} className="w-full h-full object-cover opacity-60" alt="Secondary" />
-                                <div className="absolute inset-0 bg-black/40"></div>
-                            </div>
-                        )}
+                                // Parallax logic: Front (right): ~12px, Middle (center): ~6px, Back (left): ~3px
+                                const moveFactor = model.id === 'right' ? 12 : model.id === 'center' ? 6 : 3;
+                                const translateX = mousePos.x * moveFactor;
+                                const translateY = mousePos.y * moveFactor;
 
-                        {/* Main Card (Product 1) */}
-                        {products[0] && (
-                            <div
-                                className="absolute inset-0 bg-white rounded-2xl shadow-glow overflow-hidden transform animate-float border border-white/20 group cursor-pointer"
-                                style={{ transform: 'translateZ(20px)' }}
-                                onClick={() => onNavigate('catalog')}
-                            >
-                                <img src={products[0].imageUrl} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Main" />
+                                return (
+                                    <div
+                                        key={model.id}
+                                        className={`absolute transition-all duration-700 ease-elegant cursor-pointer ${model.pos}`}
+                                        style={{
+                                            zIndex: isFocused ? 50 : model.z,
+                                            transform: `scale(${isFocused ? 1.08 : model.scale}) 
+                                                       translate(${translateX}px, ${translateY}px) 
+                                                       rotate(${isFocused ? 0 : model.rotate}deg)
+                                                       translateY(${isFocused ? -20 : 0}px)`,
+                                            filter: isAnyHovered && !isFocused ? 'grayscale(0.4) blur(1px) brightness(0.7)' : 'none',
+                                            willChange: 'transform, filter'
+                                        }}
+                                        onMouseEnter={() => setHoveredModel(model.id)}
+                                        onMouseLeave={() => setHoveredModel(null)}
+                                    >
+                                        <div className="relative group">
+                                            {/* Premium Border and Shadow Container */}
+                                            <div className={`
+                                                relative w-[280px] h-[400px] md:w-[320px] md:h-[450px] 
+                                                rounded-[2.5rem] overflow-hidden border-2 
+                                                transition-all duration-500
+                                                ${isFocused ? 'border-accent shadow-glow' : 'border-white/20 shadow-2xl'}
+                                                bg-primary/40 backdrop-blur-sm
+                                            `}>
+                                                {/* Glossy Overlay */}
+                                                <div className="absolute inset-0 bg-gradient-to-tr from-white/10 via-transparent to-transparent opacity-50 z-10 pointer-events-none" />
 
-                                {/* Glass Overlay on Card */}
-                                <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
-                                    <div className="glass-card p-3 rounded-xl border-white/30 backdrop-blur-md flex items-center justify-between">
-                                        <div>
-                                            <p className="text-accent text-[10px] font-bold uppercase tracking-wider mb-1">Trending Now</p>
-                                            <h3 className="text-white font-bold text-lg">#{products[0].designNumber}</h3>
-                                            <p className="text-slate-300 text-xs">{products[0].category}</p>
-                                        </div>
-                                        <div className="w-10 h-10 rounded-full bg-white text-primary flex items-center justify-center font-bold shadow-lg">
-                                            <ArrowRight size={18} />
+                                                {/* Main Image */}
+                                                <img
+                                                    src={model.img}
+                                                    alt={`Production Model ${model.id}`}
+                                                    className={`
+                                                        w-full h-full object-cover transition-transform duration-1000 ease-out
+                                                        ${isFocused ? 'scale-110' : 'scale-100'}
+                                                    `}
+                                                />
+
+                                                {/* Content Overlay (Visible on Hover) */}
+                                                <div className={`
+                                                    absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent 
+                                                    transition-opacity duration-500 flex flex-col justify-end p-6
+                                                    ${isFocused ? 'opacity-100' : 'opacity-0'}
+                                                `}>
+                                                    <p className="text-accent font-bold text-xs uppercase tracking-[0.2em] mb-1">Premium Collection</p>
+                                                    <h3 className="text-white font-heading font-bold text-xl">Design {model.id.toUpperCase()}</h3>
+                                                </div>
+                                            </div>
+
+                                            {/* Subtitle/Badge under the card */}
+                                            <div className={`
+                                                absolute -bottom-10 left-1/2 -translate-x-1/2 
+                                                transition-all duration-500 whitespace-nowrap
+                                                ${isFocused ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}
+                                            `}>
+                                                <span className="px-4 py-1.5 rounded-full bg-accent text-white text-[10px] font-bold uppercase tracking-widest shadow-glow">
+                                                    Factory Direct
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                {/* Shine Effect */}
-                                <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/20 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-                            </div>
-                        )}
-
-                        {/* Floating Elements around stack */}
-                        <div
-                            className="absolute -top-10 -left-10 glass-card p-3 rounded-lg flex items-center gap-2 animate-bounce shadow-lg"
-                            style={{ transform: 'translateZ(50px)', animationDuration: '3s' }}
-                        >
-                            <div className="bg-green-500 rounded-full p-1">
-                                <CheckCircle2 size={12} className="text-white" />
-                            </div>
-                            <span className="text-white text-xs font-bold">In Stock</span>
-                        </div>
-
-                        <div
-                            className="absolute top-1/2 -right-16 glass-card p-3 rounded-lg flex flex-col items-center gap-1 shadow-lg animate-pulse"
-                            style={{ transform: 'translateZ(40px)' }}
-                        >
-                            <TrendingUp size={16} className="text-accent" />
-                            <span className="text-white text-[10px] font-bold">Top Seller</span>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
             {/* Bottom Fade */}

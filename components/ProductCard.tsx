@@ -1,26 +1,13 @@
-
 import React from 'react';
-import { Plus, Check, Eye, ZoomIn, Lock, Edit2 } from 'lucide-react';
+import { Eye, ZoomIn } from 'lucide-react';
 import { Product } from '../types';
-import { useInquiry } from '../context/InquiryContext';
-import { useAuth } from '../context/AuthContext';
 
 interface ProductCardProps {
   product: Product;
   onQuickView: (product: Product) => void;
-  onInquiry: (product: Product) => void;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView, onInquiry }) => {
-  const { isInCart, getItemQuantities } = useInquiry();
-  const { isAuthenticated } = useAuth();
-  const added = isInCart(product.id);
-
-  // Get total pieces if added
-  const quantities = getItemQuantities(product.id);
-  // Fix: Added explicit types to avoid unknown operator error
-  const totalPieces = quantities ? Object.values(quantities).reduce((a: number, b: number) => a + b, 0) : 0;
-
+const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }) => {
   return (
     <div className="group relative bg-white rounded-lg border border-slate-200 shadow-sm hover:shadow-elevated transition-all duration-700 ease-elegant flex flex-col overflow-hidden hover:-translate-y-1">
       {/* Image Area */}
@@ -61,13 +48,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView, onInqui
           </span>
         </div>
 
-        {/* Added Badge Overlay */}
-        {added && (
-          <div className="absolute top-2 right-2 z-10 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-full shadow-lg flex items-center gap-1">
-            <Check size={10} strokeWidth={4} /> {totalPieces} Pcs
-          </div>
-        )}
-
         {/* Hover Overlay */}
         <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500 ease-elegant flex items-center justify-center">
           <div className="bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-elegant">
@@ -88,47 +68,22 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView, onInqui
           <span>{product.fabricType}</span>
         </div>
 
-        {/* Pricing Logic */}
-        <div className="mb-3">
-          {isAuthenticated ? (
-            <div className="flex items-baseline gap-1 animate-in fade-in duration-500">
-              <span className="text-xs text-slate-400">Wholesale:</span>
-              <span className="text-lg font-bold text-accent">₹{product.price}</span>
-              <span className="text-xs text-slate-400">/pc</span>
-            </div>
-          ) : (
-            <div className="flex items-center gap-1.5 px-2 py-1.5 bg-slate-50 rounded border border-slate-100 w-fit">
-              <Lock size={10} className="text-slate-400" />
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wide">Request Price</span>
-            </div>
-          )}
+        {/* Pricing Logic - Always Visible */}
+        <div className="mb-4">
+          <div className="flex items-baseline gap-1 animate-in fade-in duration-500">
+            <span className="text-xs text-slate-400">Wholesale:</span>
+            <span className="text-lg font-bold text-accent">₹{product.price}</span>
+            <span className="text-xs text-slate-400">/pc</span>
+          </div>
         </div>
 
         {/* Actions Grid */}
-        <div className="grid grid-cols-2 gap-2 mt-auto">
+        <div className="mt-auto">
           <button
             onClick={(e) => { e.stopPropagation(); onQuickView(product); }}
-            className="py-2 px-3 rounded-md border border-slate-200 text-slate-600 text-xs font-bold hover:bg-slate-50 hover:text-slate-900 transition-colors duration-300 flex items-center justify-center gap-1 active:scale-95 transform"
+            className="w-full py-2.5 px-4 rounded-md bg-primary text-white text-xs font-bold hover:bg-slate-800 transition-all duration-300 flex items-center justify-center gap-2 active:scale-95 transform shadow-sm hover:shadow-md"
           >
-            <Eye size={14} /> View
-          </button>
-
-          <button
-            onClick={(e) => { e.stopPropagation(); onInquiry(product); }}
-            className={`py-2 px-3 rounded-md text-xs font-bold flex items-center justify-center gap-1 transition-all duration-300 transform active:scale-95 ${added
-              ? 'bg-emerald-50 text-emerald-600 border border-emerald-100 hover:bg-emerald-100'
-              : 'bg-primary text-white border border-primary hover:bg-slate-800 hover:shadow-md'
-              }`}
-          >
-            {added ? (
-              <>
-                <Edit2 size={14} /> Edit Qty
-              </>
-            ) : (
-              <>
-                <Plus size={14} /> Inquiry
-              </>
-            )}
+            <Eye size={16} /> View Details
           </button>
         </div>
       </div>

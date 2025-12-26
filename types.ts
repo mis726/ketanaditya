@@ -34,4 +34,4 @@ export interface CartContextType {
   isCartOpen: boolean;
 }
 
-export type ViewState = 'home' | 'catalog' | 'factory' | 'contact';
+export type ViewState = 'home' | 'factory' | 'contact';
