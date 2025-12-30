@@ -82,35 +82,85 @@ const MainContent: React.FC = () => {
                         </div>
                     </div>
                 </ScrollReveal>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="space-y-16">
                     {(() => {
-                        const desiredOrder = [
-                            { display: 'Full Bottom', search: 'Denim Pants' },
-                            { display: 'Capri Bottom', search: 'Capri' },
-                            { display: 'Half Bottom', search: 'Shorts' },
-                            { display: 'Skirts', search: 'Skirts' },
-                            { display: 'Sets', search: 'Set' },
-                            { display: 'Tops', search: 'Tops(T-shirt)' },
-                            { display: 'Long Tops', search: 'Aline' }
+                        const categoryMapping: Record<string, { search: string, cover: string }> = {
+                            'Full Bottom': {
+                                search: 'Denim Pants',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/full%20bottom.png'
+                            },
+                            'Capri Bottom': {
+                                search: 'Capri',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/capri.png'
+                            },
+                            'Half Bottom': {
+                                search: 'Shorts',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/shorts.png'
+                            },
+                            'Skirts': {
+                                search: 'Skirts',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/skirts.png'
+                            },
+                            'Sets': {
+                                search: 'Set',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/sets.png'
+                            },
+                            'Tops': {
+                                search: 'Tops(T-shirt)',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/Tops.png'
+                            },
+                            'Long Tops': {
+                                search: 'Aline',
+                                cover: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Cover%20Images/Alines.png'
+                            }
+                        };
+
+                        const groups = [
+                            {
+                                title: 'Bottom Wear',
+                                items: ['Full Bottom', 'Capri Bottom', 'Half Bottom', 'Skirts']
+                            },
+                            {
+                                title: 'Top Wear & Sets',
+                                items: ['Tops', 'Long Tops', 'Sets']
+                            }
                         ];
 
-                        return desiredOrder.map((cat, i) => {
-                            // Extract up to 10 unique images for each category to create a smooth slideshow
-                            const catImages = Array.from(new Set(
-                                MASTER_INVENTORY
-                                    .filter(p => p.category === cat.search)
-                                    .map(p => p.imageUrl)
-                            )).slice(0, 10);
+                        return groups.map((group, groupIdx) => (
+                            <div key={group.title} className="space-y-8">
+                                <ScrollReveal delay={groupIdx * 100}>
+                                    <h3 className="text-sm font-bold text-slate-400 uppercase tracking-[0.2em] flex items-center gap-3">
+                                        <span className="w-12 h-px bg-slate-200"></span>
+                                        {group.title}
+                                    </h3>
+                                </ScrollReveal>
+                                <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ${group.items.length === 3 ? 'lg:flex lg:justify-center' : ''}`}>
+                                    {group.items.map((displayLabel, i) => {
+                                        const config = categoryMapping[displayLabel];
+                                        const inventoryImages = Array.from(new Set(
+                                            MASTER_INVENTORY
+                                                .filter(p => p.category === config.search)
+                                                .map(p => p.imageUrl)
+                                        ));
 
-                            return (
-                                <CategoryCard
-                                    key={cat.display}
-                                    display={cat.display}
-                                    images={catImages}
-                                    delay={i * 50}
-                                />
-                            );
-                        });
+                                        const catImages = [
+                                            config.cover,
+                                            ...inventoryImages.filter(img => img !== config.cover)
+                                        ].slice(0, 10);
+
+                                        return (
+                                            <div key={displayLabel} className={group.items.length === 3 ? 'lg:w-[calc(25%-1.5rem)]' : ''}>
+                                                <CategoryCard
+                                                    display={displayLabel}
+                                                    images={catImages}
+                                                    delay={i * 50}
+                                                />
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        ));
                     })()}
                 </div>
             </section>
@@ -204,7 +254,7 @@ const MainContent: React.FC = () => {
                 <section className="relative min-h-[60vh] flex items-center justify-center bg-primary py-24 overflow-hidden">
                     <div className="absolute inset-0">
                         <img
-                            src="/images/factory.png"
+                            src="https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/factory.png"
                             className="w-full h-full object-cover opacity-30 scale-105"
                             alt="Ketan Aditya Factory Floor"
                         />
@@ -298,8 +348,8 @@ const MainContent: React.FC = () => {
                             </p>
                             <div className="grid grid-cols-2 gap-8">
                                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                                    <p className="text-3xl font-extrabold text-accent mb-1">Built-in</p>
-                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Logic System</p>
+                                    <p className="text-3xl font-extrabold text-accent mb-1">1900+</p>
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Active Customers</p>
                                 </div>
                                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
                                     <p className="text-3xl font-extrabold text-accent mb-1">10k+</p>

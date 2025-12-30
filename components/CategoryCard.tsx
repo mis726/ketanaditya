@@ -17,7 +17,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ display, images, delay = 0 
         if (isHovered && images.length > 1) {
             interval = setInterval(() => {
                 setCurrentIndex((prev) => (prev + 1) % images.length);
-            }, 1500); // 1.5 seconds per image (doubled speed)
+            }, 1000); // 1.0 second per image (faster than 1.5s)
         } else {
             setCurrentIndex(0);
         }
@@ -36,13 +36,13 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ display, images, delay = 0 
                     {images.map((img, idx) => (
                         <div
                             key={idx}
-                            className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${idx === currentIndex ? 'opacity-100' : 'opacity-0'
+                            className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${idx === currentIndex ? 'opacity-100' : 'opacity-0'
                                 }`}
                         >
                             <img
                                 src={img}
                                 alt={display}
-                                className={`w-full h-full object-cover transition-transform duration-[1500ms] ease-linear ${idx === currentIndex && isHovered ? 'scale-110' : 'scale-100'
+                                className={`w-full h-full object-cover transition-transform duration-[1000ms] ease-linear ${idx === currentIndex && isHovered ? 'scale-110' : 'scale-100'
                                     }`}
                             />
                         </div>

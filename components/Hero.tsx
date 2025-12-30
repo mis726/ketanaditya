@@ -78,19 +78,19 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                     {/* Headline */}
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-extrabold text-white leading-[1.1] tracking-tight drop-shadow-2xl">
                         <span className="block animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-                            Product that
+                            Products that
                         </span>
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-slate-500 bg-[length:200%_auto] animate-shimmer-text pb-2" style={{ animationDelay: '200ms' }}>
-                            sells fast in Retail
+                            sells fast in retail
                         </span>
                         <span className="block text-2xl md:text-4xl font-semibold text-slate-300 mt-2 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-                            Wholesale Girls' Wear Reimagined.
+                            Girls' Clothing Reimagined.
                         </span>
                     </h1>
 
                     <p className="text-lg text-slate-400 max-w-lg leading-relaxed animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-                        For 27 years, we’ve powered 2,500+ retailers across 4 countries,
-                        delivering over 3 crore garments — with momentum that keeps accelerating.
+                        Since last 27 years, Ketan Aditya Textiles has helped
+                        2500+ retailers, across 4 countries, sell over 3 Cr. units of garments.
                     </p>
 
                     {/* Buttons */}
@@ -137,7 +137,7 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                             {[
                                 { id: 'left', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/set.png', z: 10, pos: 'left-0 top-20', scale: 0.85, rotate: -8 },
                                 { id: 'center', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/white.png', z: 20, pos: 'left-1/2 -translate-x-1/2 top-10', scale: 1, rotate: 0 },
-                                { id: 'right', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/casual.png', z: 30, pos: 'right-0 bottom-20', scale: 0.9, rotate: 8 }
+                                { id: 'right', img: 'https://tahoismsecifrazmevgm.supabase.co/storage/v1/object/public/products/Long%20Top%20Alines/Gemini_Generated_Image_trj8qotrj8qotrj8.png', z: 30, pos: 'right-0 bottom-20', scale: 0.9, rotate: 8 }
                             ].map((model) => {
                                 const isFocused = hoveredModel === model.id;
                                 const isAnyHovered = hoveredModel !== null;
@@ -185,14 +185,12 @@ const Hero: React.FC<HeroProps> = ({ products, onNavigate, onOpenWhatsApp }) => 
                                                     `}
                                                 />
 
-                                                {/* Content Overlay (Visible on Hover) */}
+                                                {/* Content Overlay - Removed text as requested */}
                                                 <div className={`
                                                     absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent 
                                                     transition-opacity duration-500 flex flex-col justify-end p-6
                                                     ${isFocused ? 'opacity-100' : 'opacity-0'}
                                                 `}>
-                                                    <p className="text-accent font-bold text-xs uppercase tracking-[0.2em] mb-1">Premium Collection</p>
-                                                    <h3 className="text-white font-heading font-bold text-xl">Design {model.id.toUpperCase()}</h3>
                                                 </div>
                                             </div>
 
